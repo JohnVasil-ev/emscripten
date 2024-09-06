@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+canvas {
+	display: block;
+}
+
+#stats {
+	position: absolute;
+	top: 24px;
+	left: 24px;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 8px 12px;
+}
+
+#fps,
+#delta {
+	color: white;
+	font-size: 16px;
+}
